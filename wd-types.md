@@ -1,35 +1,3 @@
-# wd-types
-
-Tracks [type specimen](https://en.wikipedia.org/wiki/Type_(biology)) known to [wikidata](https://wikidata.org).
-
-See [./wd-types.sh](./wd-types.sh) for automated workflow to track and document type specimen known to wikidata.
-
-Last updated 
-
-```
-preston ls -l tsv --anchor hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce\
- | grep "http://www.w3.org/ns/prov#startedAtTime"\
- | cut -f3\
- | head -n1
-```
-at "2023-05-02T02:04:44.689Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
-
-![](./qrcode.png) 
-
-hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce hash://md5/85478cc00ef7416b64d23f78e69e3c4b
-
-
-
-[./wd-types.tsv](./wd-types.tsv)
-
-[./wd-types.csv](./wd-types.csv)
-
-[./wd-types.json](./wd-types.json)
-
-[./wd-types.sparql.json](./wd-types.sparql.json)
-
-[./wd-types.md](./wd-types.md)
-
 | id | catalogNumber | imageUrl) |
 | --- | --- | --- |
 | http://www.wikidata.org/entity/Q108665387 | BC-ZSM-HYM-20721-E05 | ![](http://commons.wikimedia.org/wiki/Special:FilePath/Tetrastichus%20argei%20%2810.3897-BDJ.8.e59177%29%20Figure%2015%20a.jpg) |
@@ -523,21 +491,3 @@ hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce h
 | http://www.wikidata.org/entity/Q108665489 | BC-ZSM-HYM-22524-H10 | ![](http://commons.wikimedia.org/wiki/Special:FilePath/Tetrastichus%20fadus%20%2810.3897-BDJ.8.e59177%29%20Figure%2064%20a.jpg) |
 | http://www.wikidata.org/entity/Q109228607 | NMSA–MOL 0C6590 | ![](http://commons.wikimedia.org/wiki/Special:FilePath/Anatoma%20yaroni%20%2810.3897-afrinvertebr.61.51989%29%20Figure%2018.jpg) |
 | http://www.wikidata.org/entity/Q113246637 | USNM 1467555 | ![](http://commons.wikimedia.org/wiki/Special:FilePath/Atheraster%20symphonia%20-%20Musicians%20Seamounts%20%28EX1708%29.png) |
-
-
-
-### provenance
-
-![./qrcode.png](./qrcode.png)
-
-```
-<urn:uuid:0659a54f-b713-4f86-a917-5be166a14110> <http://purl.org/pav/hasVersion> <hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce> .
-```
-
-```
-preston alias --anchor hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce
-```
-
-```
-<https://query.wikidata.org/sparql?query=SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3Fimage%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31*%2Fwdt%3AP279*%20wd%3AQ51255340%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP18%20%3Fimage%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0ALIMIT%20200000%0A%0A&format=json> <http://purl.org/pav/hasVersion> <hash://sha256/9393413522abc7e0a4cabbf3808a47632f54d965b61a0f3bd81578575bf47c7a> <urn:uuid:90103a5e-77ee-4893-b1bc-85bf8d554c4b> .
-```

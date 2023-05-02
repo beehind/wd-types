@@ -11,6 +11,9 @@ preston track "https://query.wikidata.org/sparql?query=SELECT%20DISTINCT%20%3Fit
  | mlr --ijsonl --ocsv cat\
  | tee wd-types.csv\
  | mlr --icsv --otsvlite cat\
- | tee wd-types.tsv
-
+ | tee wd-types.tsv\
+ | sed 's/\thttp/\t\![](http/g'\
+ | sed 's/$/)/g'\
+ | mlr --itsvlite --omd cat\
+ | tee wd-types.md
  
