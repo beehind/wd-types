@@ -14,9 +14,9 @@ preston ls -l tsv --anchor hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2
 ```
 at "2023-05-02T02:04:44.689Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
 
-![](./qrcode.png) 
+via 
 
-hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce hash://md5/85478cc00ef7416b64d23f78e69e3c4b
+<a href="./data/37/d4/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce"><img src="./qrcode.png" style="height: 3em"/> hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce</a> hash://md5/85478cc00ef7416b64d23f78e69e3c4b
 
 
 
