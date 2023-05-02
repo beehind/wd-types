@@ -5,8 +5,11 @@ Tracks [type specimen](https://en.wikipedia.org/wiki/Type_(biology)) known to [w
 See [./wd-types.sh](./wd-types.sh) for automated workflow to track and document type specimen known to wikidata.
 
 [./wd-types.tsv](./wd-types.tsv)
+
 [./wd-types.csv](./wd-types.csv)
+
 [./wd-types.json](./wd-types.json)
+
 [./wd-types.sparql.json](./wd-types.sparql.json)
 
 
