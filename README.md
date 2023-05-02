@@ -31,7 +31,7 @@ via
 
 [./wd-types.md](./wd-types.md)
 
-| id | catalogNumber | imageUrl) |
+| id | catalogNumber | imageUrl |
 | --- | --- | --- |
 | http://www.wikidata.org/entity/Q108665387 | BC-ZSM-HYM-20721-E05 | ![](http://commons.wikimedia.org/wiki/Special:FilePath/Tetrastichus%20argei%20%2810.3897-BDJ.8.e59177%29%20Figure%2015%20a.jpg) |
 | http://www.wikidata.org/entity/Q108665407 | BC-ZSM-HYM-20699-G06 | ![](http://commons.wikimedia.org/wiki/Special:FilePath/Tetrastichus%20illydris%20%2810.3897-BDJ.8.e59177%29%20Figure%2030%20a.jpg) |
