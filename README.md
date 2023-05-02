@@ -18,6 +18,7 @@ via
 
 <a href="./data/37/d4/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce"><img src="./qrcode.png" style="height: 3em"/> hash://sha256/37d427dc534e83295cbf898795d9ee2ba0d23c2f8fc8dc8dc3c5064677fe8fce</a> hash://md5/85478cc00ef7416b64d23f78e69e3c4b
 
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:7935467e2c2e95c7934ffbd4cb7adfbe1cc22a2d/)](https://archive.softwareheritage.org/swh:1:dir:7935467e2c2e95c7934ffbd4cb7adfbe1cc22a2d;origin=https://github.com/beehind/wd-types;visit=swh:1:snp:f95f191232432fa3bffedb07b9704913c8d3105e;anchor=swh:1:rev:1f7e4b4d12335c1926bf574a093f2844e58e54f2)
 
 
 [./wd-types.tsv](./wd-types.tsv)
